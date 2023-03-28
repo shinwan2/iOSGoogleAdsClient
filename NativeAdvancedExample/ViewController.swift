@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        versionLabel.text = GADRequest.sdkVersion()
+        versionLabel.text = GADMobileAds.sharedInstance().sdkVersion
         guard
             let nibObjects = Bundle.main.loadNibNamed("UnifiedNativeAdView", owner: nil, options: nil),
             let adView = nibObjects.first as? GADUnifiedNativeAdView
@@ -88,8 +88,11 @@ class ViewController: UIViewController {
         refreshAdButton.isEnabled = false
         videoStatusLabel.text = ""
         adLoader = GADAdLoader(
-            adUnitID: adUnitID, rootViewController: self,
-            adTypes: [.unifiedNative], options: nil)
+            adUnitID: adUnitID,
+            rootViewController: self,
+            adTypes: [.unifiedNative],
+            options: nil
+        )
         adLoader.delegate = self
         adLoader.load(GADRequest())
     }
