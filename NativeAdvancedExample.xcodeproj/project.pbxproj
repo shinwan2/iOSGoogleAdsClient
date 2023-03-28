@@ -13,8 +13,8 @@
 		4AEBD5771BF0109B00874961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEBD5761BF0109B00874961 /* Assets.xcassets */; };
 		4AEBD57A1BF0109B00874961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEBD5781BF0109B00874961 /* LaunchScreen.storyboard */; };
 		507B44715760425632ABB58E /* Pods_NativeAdvancedExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851BD4E0101A5539A4A1554 /* Pods_NativeAdvancedExample.framework */; };
-		AEA59A4A1FBCD0DE00E6D57D /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA59A481FBCD0DE00E6D57D /* UnifiedNativeAdView.xib */; };
-		DC135D8829D2FD9D00525379 /* UnifiedNativeAdViewProg.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */; };
+		AEA59A4A1FBCD0DE00E6D57D /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA59A481FBCD0DE00E6D57D /* NativeAdView.xib */; };
+		DC135D8829D2FD9D00525379 /* NativeAdViewProg.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC135D8729D2FD9D00525379 /* NativeAdViewProg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		4AEBD5791BF0109B00874961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AEBD57B1BF0109B00874961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994AAFFBFFBE9B352F580002 /* Pods-NativeAdvancedExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.release.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.release.xcconfig"; sourceTree = "<group>"; };
-		AEA59A491FBCD0DE00E6D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UnifiedNativeAdView.xib; sourceTree = "<group>"; };
+		AEA59A491FBCD0DE00E6D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NativeAdView.xib; sourceTree = "<group>"; };
 		CAF345EF9F7D6A91525D5443 /* Pods-NativeAdvancedExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.debug.xcconfig"; sourceTree = "<group>"; };
-		DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedNativeAdViewProg.swift; sourceTree = "<group>"; };
+		DC135D8729D2FD9D00525379 /* NativeAdViewProg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdViewProg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +78,10 @@
 				4AEBD5711BF0109B00874961 /* ViewController.swift */,
 				4AEBD5731BF0109B00874961 /* Main.storyboard */,
 				4AEBD5781BF0109B00874961 /* LaunchScreen.storyboard */,
-				AEA59A481FBCD0DE00E6D57D /* UnifiedNativeAdView.xib */,
+				AEA59A481FBCD0DE00E6D57D /* NativeAdView.xib */,
 				4AEBD5761BF0109B00874961 /* Assets.xcassets */,
 				4AEBD57B1BF0109B00874961 /* Info.plist */,
-				DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */,
+				DC135D8729D2FD9D00525379 /* NativeAdViewProg.swift */,
 			);
 			path = NativeAdvancedExample;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 				4AEBD57A1BF0109B00874961 /* LaunchScreen.storyboard in Resources */,
 				4AEBD5771BF0109B00874961 /* Assets.xcassets in Resources */,
 				4AEBD5751BF0109B00874961 /* Main.storyboard in Resources */,
-				AEA59A4A1FBCD0DE00E6D57D /* UnifiedNativeAdView.xib in Resources */,
+				AEA59A4A1FBCD0DE00E6D57D /* NativeAdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 			files = (
 				4AEBD5721BF0109B00874961 /* ViewController.swift in Sources */,
 				4AEBD5701BF0109B00874961 /* AppDelegate.swift in Sources */,
-				DC135D8829D2FD9D00525379 /* UnifiedNativeAdViewProg.swift in Sources */,
+				DC135D8829D2FD9D00525379 /* NativeAdViewProg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +242,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		AEA59A481FBCD0DE00E6D57D /* UnifiedNativeAdView.xib */ = {
+		AEA59A481FBCD0DE00E6D57D /* NativeAdView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AEA59A491FBCD0DE00E6D57D /* Base */,
 			);
-			name = UnifiedNativeAdView.xib;
+			name = NativeAdView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

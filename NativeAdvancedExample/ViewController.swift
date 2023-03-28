@@ -42,26 +42,26 @@ class ViewController: UIViewController {
     var adLoader: GADAdLoader!
     
     /// The native ad view that is being presented.
-    var nativeAdView: GADUnifiedNativeAdView!
+    var nativeAdView: GADNativeAdView!
     
     /// The ad unit ID.
-    let adUnitID = "/6499/example/native"
+    let adUnitID = "ca-app-pub-3940256099942544/3986624511"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         versionLabel.text = GADMobileAds.sharedInstance().sdkVersion
-        let adView = UnifiedNativeAdViewProg()
-//        guard
-//            let nibObjects = Bundle.main.loadNibNamed("UnifiedNativeAdView", owner: nil, options: nil),
-//            let adView = nibObjects.first as? GADUnifiedNativeAdView
-//        else {
-//            assert(false, "Could not load nib file for adView")
-//        }
+        let adView = NativeAdViewProg()
+        //    guard
+        //      let nibObjects = Bundle.main.loadNibNamed("NativeAdView", owner: nil, options: nil),
+        //      let adView = nibObjects.first as? GADNativeAdView
+        //    else {
+        //      assert(false, "Could not load nib file for adView")
+        //    }
         setAdView(adView)
         refreshAd(nil)
     }
     
-    func setAdView(_ view: GADUnifiedNativeAdView) {
+    func setAdView(_ view: GADNativeAdView) {
         // Remove the previous ad view.
         nativeAdView = view
         nativeAdPlaceholder.addSubview(nativeAdView)
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
         adLoader = GADAdLoader(
             adUnitID: adUnitID,
             rootViewController: self,
-            adTypes: [.unifiedNative],
+            adTypes: [.native],
             options: nil
         )
         adLoader.delegate = self
@@ -126,16 +126,15 @@ extension ViewController: GADVideoControllerDelegate {
 }
 
 extension ViewController: GADAdLoaderDelegate {
-    
-    func adLoader(_ adLoader: GADAdLoader, didFailToReceiveAdWithError error: GADRequestError) {
+    func adLoader(_ adLoader: GADAdLoader, didFailToReceiveAdWithError error: Error) {
         print("\(adLoader) failed with error: \(error.localizedDescription)")
         refreshAdButton.isEnabled = true
     }
 }
 
-extension ViewController: GADUnifiedNativeAdLoaderDelegate {
+extension ViewController: GADNativeAdLoaderDelegate {
     
-    func adLoader(_ adLoader: GADAdLoader, didReceive nativeAd: GADUnifiedNativeAd) {
+    func adLoader(_ adLoader: GADAdLoader, didReceive nativeAd: GADNativeAd) {
         refreshAdButton.isEnabled = true
         
         // Set ourselves as the native ad delegate to be notified of native ad events.
@@ -210,30 +209,30 @@ extension ViewController: GADUnifiedNativeAdLoaderDelegate {
     }
 }
 
-// MARK: - GADUnifiedNativeAdDelegate implementation
-extension ViewController: GADUnifiedNativeAdDelegate {
+// MARK: - GADNativeAdDelegate implementation
+extension ViewController: GADNativeAdDelegate {
     
-    func nativeAdDidRecordClick(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdDidRecordClick(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
     
-    func nativeAdDidRecordImpression(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdDidRecordImpression(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
     
-    func nativeAdWillPresentScreen(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdWillPresentScreen(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
     
-    func nativeAdWillDismissScreen(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdWillDismissScreen(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
     
-    func nativeAdDidDismissScreen(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdDidDismissScreen(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
     
-    func nativeAdWillLeaveApplication(_ nativeAd: GADUnifiedNativeAd) {
+    func nativeAdWillLeaveApplication(_ nativeAd: GADNativeAd) {
         print("\(#function) called")
     }
 }

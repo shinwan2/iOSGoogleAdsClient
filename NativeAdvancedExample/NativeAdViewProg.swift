@@ -1,8 +1,8 @@
 import GoogleMobileAds
-import Foundation
+import UIKit
 
-/// Programmatically create UnifiedNativeAdView instead of from XIB.
-final class UnifiedNativeAdViewProg : GADUnifiedNativeAdView {
+/// Programmatically create NativeAdView instead of from XIB.
+final class NativeAdViewProg : GADNativeAdView {
     private let icon: UIImageView = {
         let imageView = UIImageView()
         imageView.isUserInteractionEnabled = false
