@@ -50,12 +50,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         versionLabel.text = GADMobileAds.sharedInstance().sdkVersion
-        guard
-            let nibObjects = Bundle.main.loadNibNamed("UnifiedNativeAdView", owner: nil, options: nil),
-            let adView = nibObjects.first as? GADUnifiedNativeAdView
-        else {
-            assert(false, "Could not load nib file for adView")
-        }
+        let adView = UnifiedNativeAdViewProg()
+//        guard
+//            let nibObjects = Bundle.main.loadNibNamed("UnifiedNativeAdView", owner: nil, options: nil),
+//            let adView = nibObjects.first as? GADUnifiedNativeAdView
+//        else {
+//            assert(false, "Could not load nib file for adView")
+//        }
         setAdView(adView)
         refreshAd(nil)
     }

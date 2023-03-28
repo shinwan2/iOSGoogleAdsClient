@@ -14,6 +14,7 @@
 		4AEBD57A1BF0109B00874961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEBD5781BF0109B00874961 /* LaunchScreen.storyboard */; };
 		507B44715760425632ABB58E /* Pods_NativeAdvancedExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851BD4E0101A5539A4A1554 /* Pods_NativeAdvancedExample.framework */; };
 		AEA59A4A1FBCD0DE00E6D57D /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA59A481FBCD0DE00E6D57D /* UnifiedNativeAdView.xib */; };
+		DC135D8829D2FD9D00525379 /* UnifiedNativeAdViewProg.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		994AAFFBFFBE9B352F580002 /* Pods-NativeAdvancedExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.release.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.release.xcconfig"; sourceTree = "<group>"; };
 		AEA59A491FBCD0DE00E6D57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UnifiedNativeAdView.xib; sourceTree = "<group>"; };
 		CAF345EF9F7D6A91525D5443 /* Pods-NativeAdvancedExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedNativeAdViewProg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				AEA59A481FBCD0DE00E6D57D /* UnifiedNativeAdView.xib */,
 				4AEBD5761BF0109B00874961 /* Assets.xcassets */,
 				4AEBD57B1BF0109B00874961 /* Info.plist */,
+				DC135D8729D2FD9D00525379 /* UnifiedNativeAdViewProg.swift */,
 			);
 			path = NativeAdvancedExample;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				4AEBD5721BF0109B00874961 /* ViewController.swift in Sources */,
 				4AEBD5701BF0109B00874961 /* AppDelegate.swift in Sources */,
+				DC135D8829D2FD9D00525379 /* UnifiedNativeAdViewProg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
