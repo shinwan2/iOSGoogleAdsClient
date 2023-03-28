@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFC4A8C29D2EE670087F79E /* gamplaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4A8B29D2EE670087F79E /* gamplaygroundApp.swift */; };
+		DCFC4A8E29D2EE670087F79E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4A8D29D2EE670087F79E /* ContentView.swift */; };
+		DCFC4A9029D2EE690087F79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFC4A8F29D2EE690087F79E /* Assets.xcassets */; };
+		DCFC4A9429D2EE690087F79E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFC4A9329D2EE690087F79E /* Preview Assets.xcassets */; };
+		DCFC4A9E29D2EE690087F79E /* gamplaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4A9D29D2EE690087F79E /* gamplaygroundTests.swift */; };
+		DCFC4AA829D2EE6A0087F79E /* gamplaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4AA729D2EE6A0087F79E /* gamplaygroundUITests.swift */; };
+		DCFC4AAA29D2EE6A0087F79E /* gamplaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4AA929D2EE6A0087F79E /* gamplaygroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFC4A9A29D2EE690087F79E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC4A8029D2EE670087F79E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC4A8729D2EE670087F79E;
+			remoteInfo = gamplayground;
+		};
+		DCFC4AA429D2EE6A0087F79E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC4A8029D2EE670087F79E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC4A8729D2EE670087F79E;
+			remoteInfo = gamplayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCFC4A8829D2EE670087F79E /* gamplayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gamplayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4A8B29D2EE670087F79E /* gamplaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamplaygroundApp.swift; sourceTree = "<group>"; };
+		DCFC4A8D29D2EE670087F79E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCFC4A8F29D2EE690087F79E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFC4A9129D2EE690087F79E /* gamplayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gamplayground.entitlements; sourceTree = "<group>"; };
+		DCFC4A9329D2EE690087F79E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCFC4A9929D2EE690087F79E /* gamplaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gamplaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4A9D29D2EE690087F79E /* gamplaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamplaygroundTests.swift; sourceTree = "<group>"; };
+		DCFC4AA329D2EE6A0087F79E /* gamplaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gamplaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4AA729D2EE6A0087F79E /* gamplaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamplaygroundUITests.swift; sourceTree = "<group>"; };
+		DCFC4AA929D2EE6A0087F79E /* gamplaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamplaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFC4A8529D2EE670087F79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4A9629D2EE690087F79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4AA029D2EE6A0087F79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFC4A7F29D2EE670087F79E = {
+			isa = PBXGroup;
+			children = (
+				DCFC4A8A29D2EE670087F79E /* gamplayground */,
+				DCFC4A9C29D2EE690087F79E /* gamplaygroundTests */,
+				DCFC4AA629D2EE6A0087F79E /* gamplaygroundUITests */,
+				DCFC4A8929D2EE670087F79E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFC4A8929D2EE670087F79E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4A8829D2EE670087F79E /* gamplayground.app */,
+				DCFC4A9929D2EE690087F79E /* gamplaygroundTests.xctest */,
+				DCFC4AA329D2EE6A0087F79E /* gamplaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFC4A8A29D2EE670087F79E /* gamplayground */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4A8B29D2EE670087F79E /* gamplaygroundApp.swift */,
+				DCFC4A8D29D2EE670087F79E /* ContentView.swift */,
+				DCFC4A8F29D2EE690087F79E /* Assets.xcassets */,
+				DCFC4A9129D2EE690087F79E /* gamplayground.entitlements */,
+				DCFC4A9229D2EE690087F79E /* Preview Content */,
+			);
+			path = gamplayground;
+			sourceTree = "<group>";
+		};
+		DCFC4A9229D2EE690087F79E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4A9329D2EE690087F79E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCFC4A9C29D2EE690087F79E /* gamplaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4A9D29D2EE690087F79E /* gamplaygroundTests.swift */,
+			);
+			path = gamplaygroundTests;
+			sourceTree = "<group>";
+		};
+		DCFC4AA629D2EE6A0087F79E /* gamplaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4AA729D2EE6A0087F79E /* gamplaygroundUITests.swift */,
+				DCFC4AA929D2EE6A0087F79E /* gamplaygroundUITestsLaunchTests.swift */,
+			);
+			path = gamplaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFC4A8729D2EE670087F79E /* gamplayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4AAD29D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplayground" */;
+			buildPhases = (
+				DCFC4A8429D2EE670087F79E /* Sources */,
+				DCFC4A8529D2EE670087F79E /* Frameworks */,
+				DCFC4A8629D2EE670087F79E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gamplayground;
+			productName = gamplayground;
+			productReference = DCFC4A8829D2EE670087F79E /* gamplayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCFC4A9829D2EE690087F79E /* gamplaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4AB029D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplaygroundTests" */;
+			buildPhases = (
+				DCFC4A9529D2EE690087F79E /* Sources */,
+				DCFC4A9629D2EE690087F79E /* Frameworks */,
+				DCFC4A9729D2EE690087F79E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC4A9B29D2EE690087F79E /* PBXTargetDependency */,
+			);
+			name = gamplaygroundTests;
+			productName = gamplaygroundTests;
+			productReference = DCFC4A9929D2EE690087F79E /* gamplaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCFC4AA229D2EE6A0087F79E /* gamplaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4AB329D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplaygroundUITests" */;
+			buildPhases = (
+				DCFC4A9F29D2EE6A0087F79E /* Sources */,
+				DCFC4AA029D2EE6A0087F79E /* Frameworks */,
+				DCFC4AA129D2EE6A0087F79E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC4AA529D2EE6A0087F79E /* PBXTargetDependency */,
+			);
+			name = gamplaygroundUITests;
+			productName = gamplaygroundUITests;
+			productReference = DCFC4AA329D2EE6A0087F79E /* gamplaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFC4A8029D2EE670087F79E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DCFC4A8729D2EE670087F79E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DCFC4A9829D2EE690087F79E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DCFC4A8729D2EE670087F79E;
+					};
+					DCFC4AA229D2EE6A0087F79E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DCFC4A8729D2EE670087F79E;
+					};
+				};
+			};
+			buildConfigurationList = DCFC4A8329D2EE670087F79E /* Build configuration list for PBXProject "gamplayground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFC4A7F29D2EE670087F79E;
+			productRefGroup = DCFC4A8929D2EE670087F79E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFC4A8729D2EE670087F79E /* gamplayground */,
+				DCFC4A9829D2EE690087F79E /* gamplaygroundTests */,
+				DCFC4AA229D2EE6A0087F79E /* gamplaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFC4A8629D2EE670087F79E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4A9429D2EE690087F79E /* Preview Assets.xcassets in Resources */,
+				DCFC4A9029D2EE690087F79E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4A9729D2EE690087F79E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4AA129D2EE6A0087F79E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFC4A8429D2EE670087F79E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4A8E29D2EE670087F79E /* ContentView.swift in Sources */,
+				DCFC4A8C29D2EE670087F79E /* gamplaygroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4A9529D2EE690087F79E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4A9E29D2EE690087F79E /* gamplaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4A9F29D2EE6A0087F79E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4AA829D2EE6A0087F79E /* gamplaygroundUITests.swift in Sources */,
+				DCFC4AAA29D2EE6A0087F79E /* gamplaygroundUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFC4A9B29D2EE690087F79E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC4A8729D2EE670087F79E /* gamplayground */;
+			targetProxy = DCFC4A9A29D2EE690087F79E /* PBXContainerItemProxy */;
+		};
+		DCFC4AA529D2EE6A0087F79E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC4A8729D2EE670087F79E /* gamplayground */;
+			targetProxy = DCFC4AA429D2EE6A0087F79E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFC4AAB29D2EE6A0087F79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFC4AAC29D2EE6A0087F79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DCFC4AAE29D2EE6A0087F79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gamplayground/gamplayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gamplayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFC4AAF29D2EE6A0087F79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gamplayground/gamplayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gamplayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCFC4AB129D2EE6A0087F79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamplayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gamplayground";
+			};
+			name = Debug;
+		};
+		DCFC4AB229D2EE6A0087F79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamplayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gamplayground";
+			};
+			name = Release;
+		};
+		DCFC4AB429D2EE6A0087F79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gamplayground;
+			};
+			name = Debug;
+		};
+		DCFC4AB529D2EE6A0087F79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z3A87357P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinwan2.gamplaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gamplayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFC4A8329D2EE670087F79E /* Build configuration list for PBXProject "gamplayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4AAB29D2EE6A0087F79E /* Debug */,
+				DCFC4AAC29D2EE6A0087F79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC4AAD29D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4AAE29D2EE6A0087F79E /* Debug */,
+				DCFC4AAF29D2EE6A0087F79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC4AB029D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4AB129D2EE6A0087F79E /* Debug */,
+				DCFC4AB229D2EE6A0087F79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC4AB329D2EE6A0087F79E /* Build configuration list for PBXNativeTarget "gamplaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4AB429D2EE6A0087F79E /* Debug */,
+				DCFC4AB529D2EE6A0087F79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFC4A8029D2EE670087F79E /* Project object */;
+}
